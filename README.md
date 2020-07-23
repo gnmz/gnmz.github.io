@@ -1,1 +1,1 @@
-# gnmz.github.io-
+# gnmz.github.io
