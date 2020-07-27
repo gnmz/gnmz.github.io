@@ -272,19 +272,21 @@ h4{
     .wrapper {
         width: 768px;
         display: block;
+        margin: 0 auto;
     }
     .resume-about{
         width: 708px;
-        height: 1090px; 
-        margin: 0;
+        height: 1090px;
+        margin-bottom: 14px;
     }
     .resume-about__photo {
         width: 302px;
         height: 302px;
         margin: 95px 203px 0 203px;
     }
+    
     .resume-about__main{
-        margin: 0;
+        
     }
     .resume-about h1{
         margin: 0;
@@ -330,6 +332,7 @@ h4{
 
     }
     .resume-content{
+        margin: 0 auto;
         width: 708px;
     }
     .resume-content__skills{
