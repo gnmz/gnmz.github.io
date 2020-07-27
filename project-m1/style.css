@@ -278,7 +278,11 @@ h4{
     }
     .resume-about{
         width: 708px;
+<<<<<<< HEAD
         height: 1090px; 
+=======
+        height: 1090px;
+>>>>>>> f6914482cb5d6c37d06e9baa0afdb872a1cd18ef
     }
     .resume-about__photo {
         width: 302px;
