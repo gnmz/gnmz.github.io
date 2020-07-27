@@ -222,6 +222,8 @@ h4{
 }
 @media screen and (min-width: 992px) and (max-width: 1279px) {
     .wrapper {
+        margin: 0 auto;
+        width: 992px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -268,14 +270,15 @@ h4{
 }
 @media screen and (min-width: 320px) and (max-width: 991px){
     .wrapper {
+        width: 768px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin: 0 auto;
     }
     .resume-about{
         width: 708px;
-        height: 1090px;
-        margin: 0 auto;
+        height: 1090px; 
     }
     .resume-about__photo {
         width: 302px;
