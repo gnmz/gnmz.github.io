@@ -330,7 +330,7 @@ h4 {
     .button-feedback span {
         padding-top: 15px;
     }
-    .resume-about__feedback p:nth-child(2) {
+    /* .resume-about__feedback p:nth-child(2) {
         position: relative;
         left: -10px;
     }
@@ -338,7 +338,7 @@ h4 {
         position: relative;
         left: -25px;
         margin-bottom: 0;
-    }
+    } */
     .resume-about hr {
         width: 37%;
         border: 1px solid #969696;
