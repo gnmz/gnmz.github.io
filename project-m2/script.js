@@ -26,7 +26,7 @@ function newElement() {
     li.append(inputText);
     li.append(close);
     lists.append(li);
-};
+}
 //создаем новый элемент end
 
 // добавляем обработчик удаления первой задачи start
@@ -98,10 +98,10 @@ filter.addEventListener('click', () => {
     newArr.push(inputValues[i].value);
   }
   newArr.sort((a, b) => {
-    if (+a < +b) {
+    if (a < b) {
         return 1;
     }
-    if (+a > +b) {
+    if (a > b) {
         return -1;
     }
     return 0;
@@ -122,10 +122,10 @@ filterUp.addEventListener('click', () => {
     newArr.push(inputValues[i].value);
   }
   newArr.sort((a, b) => {
-    if (+a < +b) {
+    if (a < b) {
         return -1;
     }
-    if (+a > +b) {
+    if (a > b) {
         return 1;
     }
     return 0;
