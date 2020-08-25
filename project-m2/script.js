@@ -22,6 +22,11 @@ function newElement() {
       li.remove();
     })
     // добавляем обработчик удаления задачи end
+    //обработчик зачеркивания
+    // newCheck.addEventListener('click', () => {
+    //   inputText.style.textDecoration = 'line-through';
+    // })
+    // обработчик зачеркивания
     li.append(newCheck);
     li.append(inputText);
     li.append(close);
@@ -136,3 +141,7 @@ filterUp.addEventListener('click', () => {
 });
 
 // изменение значка фильтра при нажатии и сортировка  end
+
+// check.addEventListener('click', () => {
+//   inputValue.style.textDecoration = 'line-through';
+// })
